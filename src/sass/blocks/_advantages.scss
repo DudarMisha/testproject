@@ -1,0 +1,37 @@
+.advantages {
+    position: relative;
+    min-height: 600px;
+    padding: 135px 0 142px 0;
+    &__subtitle {
+        margin-top: 18px;
+        span {
+            text-transform: none;
+        }
+    }
+    &__text {
+        margin-top: 57px;
+    }
+    &__list {
+        margin-bottom: 0;
+        list-style-type: none;
+        padding-left: 0;
+        li {
+            position: relative;
+            margin-bottom: 17px;
+            padding-left: 30px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 17px;
+            color: #4A4A4A;
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: -2px;
+                width: 17px;
+                height: 17px;
+                background: url(../icons/advantages/checked.svg)
+            }
+        }
+    }
+}

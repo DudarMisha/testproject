@@ -1,0 +1,24 @@
+.main-btn {
+    width: 200px;
+    height: 45px;
+    background: $yellow-color;
+    border: none;
+    border-radius: 19px;
+    padding: 12px 1px 15px 5px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    span {
+        font-size: 22px;
+    }
+    &:hover {
+        background: $blue-color;
+    }
+    &_footer {
+        background: $blue-color;
+        &:hover {
+            background: $yellow-color;
+        }
+    }
+}

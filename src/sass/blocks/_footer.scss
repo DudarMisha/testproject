@@ -1,0 +1,106 @@
+.footer {
+    min-height: 290px;
+    padding: 32px 0 53px 0;
+    &__contacts {
+        width: 200px;
+        &-phone {
+            display: block;
+            margin-top: 26px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #373737;
+            &:hover {
+                text-decoration: none;
+                color: #373737;
+            }
+        }
+        &-mail {
+            display: block;
+            margin-top: 9px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #373737;
+            &:hover {
+                text-decoration: none;
+                color: #373737;
+            }
+        }
+        &-text {
+            margin-top: 20px;
+            font-family: Raleway;
+            font-weight: 500;
+            font-size: 12px;
+            color: #000000;
+            opacity: 0.55;
+        }
+        &-social {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3px;
+            &-item {
+                font-weight: 500;
+                font-size: 14px;
+                color: $blue-color;
+                &:hover {
+                    text-decoration: none;
+                    color: $blue-color;
+                }
+            }
+        }
+    }
+    &__custom {
+        width: 400px;
+        margin: 0 auto;
+        &-wrapper {
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            &-link {
+                font-weight: 500;
+                font-size: 16px;
+                color: #4A4A4A;
+                &:hover {
+                    text-decoration: none;
+                    color: #4A4A4A;
+                }
+            }
+        }
+        &-contacts {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 45px;
+            &-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-img {
+                    width: 80px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                &-descr {
+                    margin-top: 9px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #000000;
+                    opacity: 0.55;
+                }
+            }
+        }
+    }
+    &__promo {
+        width: 270px;
+        &-descr {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            color: #696969;
+        }
+        &-btn {
+            margin-top: 24px;
+        }
+    }
+}

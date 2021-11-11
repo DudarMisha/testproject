@@ -1,0 +1,16 @@
+.title {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #373737;
+    &_subtitle {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 32px;
+        color: $blue-color;
+        span {
+            color: $yellow-color;
+            text-transform: uppercase;
+        }
+    }
+}
